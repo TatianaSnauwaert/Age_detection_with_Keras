@@ -23,3 +23,6 @@ We have applied several data augmentation techniques to help the model train bet
 The final model is based on the ResNet-50 - a convolutional neural network that is 50 layers deep. We have adde the GlobalAveragePooling2D layer and 3 fully connected layers after that.
 
 The model showed the desired quality - after 15 epochs the validation **MAE is 7.48** (less than 8), which means that, on average, our model's predicted age diverges from the real age by slightly less than 8 years.
+
+**Logbook**
+The logbook of this project can be found [here](https://docs.google.com/spreadsheets/d/1SrGdReexaSEomJGS6yR6cRwJtHA_XqpprnLaE7B6Ayg/edit#gid=1297842673) (Computer Vision tab). Total time spent on the project: 7.7 hours with a daily average of 1.28 hours working for 6 days.
